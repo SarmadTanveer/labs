@@ -1,0 +1,10 @@
+comments/notes: 
+
+Everything works fine. I had made a syntactical logic error with the stack implementation on the previous lab with the function isEmpty(). I have now corrected it. 
+The heap implementation was particularly cumbersome because of the maxHeapify() function. After significant time spent I was able to implement it correctly. The rest
+was easy to implement. Also the loop in main.c for reading int values didnot function correctly because of this line: 
+while (scanf("%d \n"), values) != EOF). the new line charcater would cause a delay in the reading of values. I simply took \n out and it worked correctly. 
+
+
+
+ 

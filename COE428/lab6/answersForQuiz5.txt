@@ -1,0 +1,10 @@
+Answers for quiz 5: 
+1 d. O(logN)
+
+2 c. O(n)
+
+3 a. A heap can have more than one node with one child (wrong)
+
+4 b. 40,35,20,10,30,16,17,8,4,15
+
+5 d. removal and insertion are better than linear. 

@@ -1,0 +1,60 @@
+Summarize your lab:
+
+  Part 1:
+     Works  Yes 
+     
+  Part 2:
+     Works  Yes 
+     
+  Part 3:
+     Works  Yes 
+     
+***ANSWERS TO QUESTIONS***
+ Question 1:
+     Which hash table collision resolution method did you use
+     (eg. chaining or open addressing)? Explain your choice
+     briefly (less than 25 words).
+ YOUR ANSWER:
+ 	
+	I used open addressing, linear probing, because for an aplication such as balancing tags, it provides for mapping 1057(hash table size) unique tags which is sufficient. 
+ 
+ 
+ 
+ 
+ Question 2:
+       Which hash function (division or multiplication) did you use?
+       How did you convert a string into a number?
+ YOUR ANSWER:
+	I used division, mod 1057. In order to convert the number to an int I used the Fowler/Noll/Vo hashing algorithm. It is easy to implement and not very resources heavy. 
+	more info can be found at: https://web.archive.org/web/20190106003245/https://en.wikipedia.org/wiki/Fowler_Noll_Vo_hash. 
+
+ Question 3:
+       Another legal XML tag not used in this lab is the
+       stand-alone tag.  This kind of tag
+       combines both a start-tag and end-tag in one.
+       It is identified with a '/' (slash) preceding the
+       final >.  (For example, the <foo/>
+       is a stand-alone tag that is self balancing.
+       
+       Describe briefly how
+       you would modify Part 3 to allow this kind of tag.
+       
+ YOUR ANSWER:
+	In my code, I keep track of the tag identifier in a variable called identifier and the < / are kept track of with prevChar. I would moify the code such that 
+if ch == '/';   
+push(identifier);
+prevChar <- ch; 
+
+else if (ch == '>' && prevChar == '/'){
+if (identfier.equals(pop())){
+continue:
+}
+else {
+print("Not Valid"); 
+}
+} 
+
+also I would not append the string when '/' is read. 
+
+  
+  
