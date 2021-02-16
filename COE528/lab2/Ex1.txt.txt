@@ -1,0 +1,25 @@
+//Requires: integer array a and b are not null.  
+//Modifies: array a     
+//Effects:  Finds the largest element in "b" and replaces the last element of "a" with the largest element in "b". 
+     
+public static void substituteMax(int[] a, int[] b) {
+	int maxOfA = a[0];
+	int index = 0;
+
+	for (int i = 0; i < a.length; i++) {
+	  if(a[i] > maxOfA) {                 
+		maxOfA = a[i];                 
+		index = i;             
+		}         
+	}       
+  
+	int maxOfB = b[0];         
+
+	for (int i = 0; i < b.length; i++) {
+	  if(b[i] > maxOfB) {                 
+		maxOfB = b[i];             
+		}
+         }    
+    
+	a[index] = maxOfB;
+     }
