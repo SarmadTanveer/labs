@@ -8,7 +8,7 @@ A collection of selected labs and projects from my computer engineering educatio
   * Lab4: Simple file reader
   * Final Project: Bank account application using the MVC pattern 
 * COE428 - Algorithms and Data Structures - Programming Language: C 
-  * Lab1: Command Line interpreter and insertions sort
+  * Lab1: Command Line interpreter and insertions sort [Lab1](/COE428/lab1/)
   * Lab2: Towers of Solver
   * Lab3: Comparison of insertion sort and merge sort algorithms
   * lab4: Implementation of a state machine
