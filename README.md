@@ -12,8 +12,8 @@ A collection of selected labs and projects from my computer engineering educatio
   
 * COE528 - Object Oriented Design and Analysis - Programming Language: Java 
   * [Lab1: Sorting algorithms implemented in java](/COE528/lab1) 
-  * [Lab2: Palindrome Checker](/COE528/lab2)
-  * [Lab4: Simple file reader](/COE528/lab4)
+  * [Lab2: Palindrome Checker](/COE528/lab2/Ex2)
+  * [Lab4: Simple file reader](/COE528/lab4/Ex1)
   * [Final Project: Bank account application using the MVC pattern](/COE528/project) 
   
 * COE608 - Operating Systems - Programming Language: C
