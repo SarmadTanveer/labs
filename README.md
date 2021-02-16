@@ -1,7 +1,7 @@
 # Lab Work and Projects 
 A collection of selected labs and projects from my computer engineering education at Ryerson University.
 
-## Click on a lab below to navigate to check out the code
+## Click on a lab below to check out the associated code
 * COE528 - Object Oriented Design and Analysis - Programming Language: Java 
   * Lab1: Sorting algorithms implemented in java 
   * Lab2: Palindrome Checker
