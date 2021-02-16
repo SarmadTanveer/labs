@@ -17,9 +17,9 @@ A collection of selected labs and projects from my computer engineering educatio
   * [Final Project: Bank account application using the MVC pattern](/COE528/project) 
   
 * COE608 - Operating Systems - Programming Language: C
-  * Lab1: Implementation of a Priority Que 
-  * Lab2: Command Line Interpreter 
-  * Lab3: Implementation of simple shell 
+  * [Lab1: Implementation of a Priority Que](/COE628/lab1) 
+  * [Lab2: Command Line Interpreter](/COE628/lab2)
+  * [Lab3: Implementation of simple shell](/COE628/lab3) 
 
 * COE538 - Microprocessor Systems - Programming Language: Assembly Language 
   *
